@@ -12,6 +12,7 @@
 		F208A7AD208A7895007EED34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F208A7AB208A7895007EED34 /* Main.storyboard */; };
 		F208A7AF208A7896007EED34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F208A7AE208A7896007EED34 /* Assets.xcassets */; };
 		F208A7B2208A7896007EED34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F208A7B0208A7896007EED34 /* LaunchScreen.storyboard */; };
+		F208A7BA208A7ACC007EED34 /* KaitlinWorksheet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F208A7B9208A7ACC007EED34 /* KaitlinWorksheet.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F208A7AE208A7896007EED34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F208A7B1208A7896007EED34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F208A7B3208A7896007EED34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F208A7B9208A7ACC007EED34 /* KaitlinWorksheet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = KaitlinWorksheet.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		F208A7A6208A7895007EED34 /* PDF_Viewer */ = {
 			isa = PBXGroup;
 			children = (
+				F208A7B9208A7ACC007EED34 /* KaitlinWorksheet.pdf */,
 				F208A7A7208A7895007EED34 /* AppDelegate.swift */,
 				F208A7A9208A7895007EED34 /* ViewController.swift */,
 				F208A7AB208A7895007EED34 /* Main.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F208A7BA208A7ACC007EED34 /* KaitlinWorksheet.pdf in Resources */,
 				F208A7B2208A7896007EED34 /* LaunchScreen.storyboard in Resources */,
 				F208A7AF208A7896007EED34 /* Assets.xcassets in Resources */,
 				F208A7AD208A7895007EED34 /* Main.storyboard in Resources */,

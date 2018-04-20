@@ -7,12 +7,21 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var pdfView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let path = Bundle.main.path(forResource: "KaitlinWorksheet", ofType: "pdf");
+        let url = URL(fileURLWithPath: path!)
+        let request = URLRequest(url: url)
+        
+        pdfView.load(request)
+        
     }
 
     override func didReceiveMemoryWarning() {
